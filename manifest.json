@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Eagle Github Viewer",
+  "version": "0.1.0",
+  "description": "Converts github eagle pages to actual schematic",
+  "author": "Rumman Waqar",
+  "icons": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs", "https://github.com/*"
+  ],
+  "page_action": {
+    "default_icon": {
+      "19": "icon/icon19.png",
+      "38": "icon/icon48.png",
+      "128": "icon/icon128.png"
+    },
+    "default_title": "Eagle Github Viewer"
+  }
+}
